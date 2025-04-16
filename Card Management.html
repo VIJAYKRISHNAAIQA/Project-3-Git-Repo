@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Card Management</title>
+    <style>
+        .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; }
+        .card { border: 1px solid #ccc; padding: 15px; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <h1>Your Cards</h1>
+    <div class="card-grid">
+        <div class="card">
+            <h3>VISA •••• 5678</h3>
+            <p>Expires: 05/2025</p>
+            <button>Block Card</button>
+            <button>Set Limit</button>
+        </div>
+        <div class="card">
+            <h3>Mastercard •••• 9012</h3>
+            <p>Expires: 11/2026</p>
+            <button>Block Card</button>
+            <button>Set Limit</button>
+        </div>
+    </div>
+    <button style="margin: 20px;">+ Request New Card</button>
+</body>
+</html>
